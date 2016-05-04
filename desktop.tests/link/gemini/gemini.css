@@ -1,0 +1,37 @@
+/* ../../../test.blocks/page/page.styl:begin */
+.page {
+  padding: 20px;
+}
+/* ../../../test.blocks/page/page.styl:end */
+/* ../../../design/common.blocks/page/_theme/page_theme_islands.styl:begin */
+html {
+  min-height: 100%;
+}
+.page_theme_islands {
+  font: 13px/15px Arial, Helvetica, sans-serif;
+  min-height: 100%;
+  margin: 0;
+  color: #000;
+  background: #fff;
+}
+/* ../../../design/common.blocks/page/_theme/page_theme_islands.styl:end */
+/* ../../../common.blocks/link/link.styl:begin */
+.link {
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+}
+/* ../../../common.blocks/link/link.styl:end */
+/* ../../../test.blocks/link/link.styl:begin */
+.link_pseudo:not([class*="link_theme"]) {
+  cursor: pointer;
+  color: #00f;
+}
+.link_pseudo:not([class*="link_theme"]):hover {
+  color: #f00;
+}
+/* ../../../test.blocks/link/link.styl:end */
+/* ./gemini.blocks/separator/separator.styl:begin */
+.separator {
+  padding-bottom: 15px;
+}
+/* ./gemini.blocks/separator/separator.styl:end */

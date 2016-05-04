@@ -1,0 +1,115 @@
+/* ../../../test.blocks/page/page.styl:begin */
+.page {
+  padding: 20px;
+}
+/* ../../../test.blocks/page/page.styl:end */
+/* ../../../design/common.blocks/page/_theme/page_theme_islands.styl:begin */
+html {
+  min-height: 100%;
+}
+.page_theme_islands {
+  font: 13px/15px Arial, Helvetica, sans-serif;
+  min-height: 100%;
+  margin: 0;
+  color: #000;
+  background: #fff;
+}
+/* ../../../design/common.blocks/page/_theme/page_theme_islands.styl:end */
+/* ../../../common.blocks/textarea/textarea.styl:begin */
+.textarea {
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+}
+/* ../../../common.blocks/textarea/textarea.styl:end */
+/* ../../../common.blocks/input/input.styl:begin */
+.input {
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+}
+/* ../../../common.blocks/input/input.styl:end */
+/* ../../../design/common.blocks/textarea/_theme/textarea_theme_simple.styl:begin */
+.textarea_theme_simple {
+  font-family: inherit;
+  font-size: 100%;
+  display: inline-block;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  min-height: 2em;
+  margin: 0;
+  cursor: auto;
+  border: 1px solid rgba(0,0,0,0.3);
+  background: #fff;
+  -webkit-appearance: none;
+}
+.textarea_theme_simple.textarea_disabled {
+  opacity: 0.6;
+}
+.textarea_theme_simple.textarea_focused {
+  box-shadow: 0 0 5px 1px #fc0;
+}
+.textarea_theme_simple.textarea_focused:focus {
+  outline: none;
+}
+.textarea_theme_simple.textarea_width_available {
+  width: 100%;
+}
+/* ../../../design/common.blocks/textarea/_theme/textarea_theme_simple.styl:end */
+/* ../../../design/common.blocks/textarea/_theme/textarea_theme_islands.styl:begin */
+.textarea_theme_islands {
+  font-family: Arial, Helvetica, sans-serif;
+  display: inline-block;
+  background: #fff;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  min-height: 2em;
+  border: 1px solid rgba(0,0,0,0.2);
+  outline: none;
+  -webkit-appearance: none;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+.textarea_theme_islands::-webkit-input-placeholder {
+  color: #999;
+  text-indent: 0;
+}
+.textarea_theme_islands::-moz-placeholder {
+  opacity: 1;
+  color: #999;
+}
+.textarea_theme_islands.textarea_focused {
+  border-color: #fc0;
+  box-shadow: 0 0 0 1px #fc0;
+}
+.textarea_theme_islands.textarea_width_available {
+  width: 100%;
+  resize: vertical;
+}
+.textarea_theme_islands.textarea_disabled {
+  resize: none;
+  cursor: default;
+  color: rgba(0,0,0,0.4);
+  border-color: transparent;
+  background: rgba(0,0,0,0.08);
+}
+.textarea_theme_islands.textarea_size_s {
+  font-size: 13px;
+  line-height: 16px;
+  padding-left: 6px;
+}
+.textarea_theme_islands.textarea_size_m {
+  font-size: 13px;
+  line-height: 18px;
+  padding: 3px 5px;
+}
+.textarea_theme_islands.textarea_size_l {
+  font-size: 15px;
+  line-height: 20px;
+  padding: 5px 7px;
+}
+.textarea_theme_islands.textarea_size_xl {
+  font-size: 18px;
+  line-height: 22px;
+  padding-left: 11px;
+}
+/* ../../../design/common.blocks/textarea/_theme/textarea_theme_islands.styl:end */
